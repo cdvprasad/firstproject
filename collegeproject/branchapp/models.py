@@ -15,5 +15,5 @@ class StudentDepartment(models.Model):
     department= models.ForeignKey(StudentInfo, on_delete=models.CASCADE)
     branch_name = models.CharField(max_length=100)
 
-py p
+
 
